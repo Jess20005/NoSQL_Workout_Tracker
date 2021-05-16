@@ -1,3 +1,15 @@
+fetch("/api/workouts/stats")
+  .then(response => {
+    return response.json();
+  })
+  .then(data => {
+    populateChart(data);
+  });
+
+
+API.getWorkoutStats()
+
+
 function generatePalette() {
   const arr = [
     '#003f5c',
