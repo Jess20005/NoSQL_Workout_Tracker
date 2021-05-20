@@ -22,3 +22,5 @@ Run the following command in the terminal:
 node server.js
 
 Github repo: https://github.com/Jess20005/NoSQL_Workout_Tracker
+
+Deployed Link: https://git.heroku.com/guarded-depths-78555.git
