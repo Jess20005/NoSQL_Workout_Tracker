@@ -9,7 +9,7 @@ module.exports = (app) => {
             $sum: "$exercises.duration",
           },
           numExercises: {
-            $sum: "excercises.type",
+            $sum: "$exercises.type",
           },
         },
       },
@@ -53,7 +53,10 @@ module.exports = (app) => {
   });
 
   app.put("/api/workouts/:id", (req, res) => {
-    db.Workout.findByIdAndUpdate({ _id: req.params.id }, { exercise: req.body })
+    db.Workout.findByIdAndUpdate(
+      { _id: req.params.id },
+      { exercises: req.body }
+    )
       .then((dbWorkout) => {
         res.json(dbWorkout);
       })
