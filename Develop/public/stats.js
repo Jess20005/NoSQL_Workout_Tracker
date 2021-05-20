@@ -1,4 +1,4 @@
-fetch("/api/workouts/stats")
+fetch("/api/workouts/range")
   .then(response => {
     return response.json();
   })
@@ -7,7 +7,7 @@ fetch("/api/workouts/stats")
   });
 
 
-API.getWorkoutStats()
+API.getWorkoutsInRange()
 
 
 function generatePalette() {
@@ -217,4 +217,4 @@ function workoutNames(data) {
 }
 
 // get all workout data from back-end
-API.getWorkoutStats().then(populateChart);
+API.getWorkoutsInRange().then(populateChart);
