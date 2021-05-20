@@ -8,6 +8,9 @@ module.exports = (app) => {
           totalDuration: {
             $sum: "$exercises.duration",
           },
+          numExercises: {
+            $sum: "excercises.type",
+          },
         },
       },
     ])
