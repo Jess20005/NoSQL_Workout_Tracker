@@ -15,7 +15,7 @@ View the combined weight of multiple exercises from the past seven workouts on t
 
 View the total duration of each workout from the past seven workouts on the stats page.
 
-![Screenshot of webpage](Develop/assets/TrackerScreenshot.png)
+![Screenshot of webpage](assets/TrackerScreenshot.png)
 
 Run the following command in the terminal:
 
