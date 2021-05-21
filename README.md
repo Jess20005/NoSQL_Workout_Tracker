@@ -15,7 +15,7 @@ View the combined weight of multiple exercises from the past seven workouts on t
 
 View the total duration of each workout from the past seven workouts on the stats page.
 
-![Screenshot of webpage](develop/assets/TrackerScreenshot.png)
+![Screenshot of webpage](Develop/assets/TrackerScreenshot.png)
 
 Run the following command in the terminal:
 
@@ -23,4 +23,4 @@ node server.js
 
 Github repo: https://github.com/Jess20005/NoSQL_Workout_Tracker
 
-Deployed Link: https://git.heroku.com/guarded-depths-78555.git
+Deployed Link: https://guarded-depths-78555.herokuapp.com/
